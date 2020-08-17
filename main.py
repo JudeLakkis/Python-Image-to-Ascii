@@ -1,13 +1,13 @@
 from PIL import Image
 
-img = Image.open('main_test.png')
-basewidth = 500
+img = Image.open('gradient.png')
+basewidth = 200
 wpercent = (basewidth/float(img.size[0]))
 hsize = int((float(img.size[1])*float(wpercent)))
 img = img.resize((basewidth,hsize), Image.ANTIALIAS)
-img.save('compressed/main_test.png')
+img.save('compressed/gradient.png')
 
-img = Image.open('compressed/main_test.png')
+img = Image.open('compressed/gradient.png')
 img_width, img_height= img.size
 rgb_img = img.convert('RGB')
 
