@@ -15,7 +15,8 @@ Simple Python project to convert basic picutes into ASCII art.
 
 ### Function
 At the moment the gradient recognition works pretty well, and character placement should be alright.
-![Gradient Image](compressed/gradient.png | width = 250) ![Gradient ASCII](compressed/ASCII_Gradient.png | width = 250)
+
+![Gradient Image](imgs/gradient.png) ![Gradient ASCII](imgs/ASCII_Gradient.png)
 
 **Note:**
 - Currently written functionally, rather than using objects. Code needs a revamp to allow for image importation.
