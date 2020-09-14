@@ -1,5 +1,4 @@
 <h1 align="center">Image to ASCII Art</h1>
-<h4 align="center">⚠️ Currently Under Development ⚠️</h4>
 
 ### Introduction
 Simple Python project to convert basic picutes into ASCII art.
